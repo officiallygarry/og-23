@@ -16,7 +16,7 @@ function my_login_logo_url() {
 add_filter('login_headerurl', 'my_login_logo_url');
 
 function my_login_logo_url_title() {
-    return 'Digital content creator in Plymouth';
+    return 'Digital content creator in Plymouth, Devon and Cornwall';
 }
 add_filter( 'login_headertitle', 'my_login_logo_url_title' );
 
