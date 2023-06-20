@@ -1,0 +1,25 @@
+/*
+ Theme Name:     OG-23
+ Theme URI:      https://web.officiallygarry.co.uk
+ Description:    Divi Child Theme
+ Template:       Divi
+ Version:        2.0.0
+*/
+ 
+/* =Theme customization starts here
+------------------------------------------------------- */
+
+body.login div#login h1 a {
+	background-image: url("/wp-content/themes/officiallygarry/officiallygarry-logo.png");
+}
+
+body.login {
+	background-image: url("/wp-content/themes/officiallygarry/login-background.png");
+	background-size: cover;
+}
+
+.login h1 a {
+	background-size: contain;
+	height: 5rem;
+	width: unset;
+}
